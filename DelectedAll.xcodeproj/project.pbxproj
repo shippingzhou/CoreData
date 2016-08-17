@@ -8,24 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		9FA75BB31D64429C0009A733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BB21D64429C0009A733 /* main.m */; };
-		9FA75BB61D64429C0009A733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BB51D64429C0009A733 /* AppDelegate.m */; };
-		9FA75BB91D64429C0009A733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BB81D64429C0009A733 /* ViewController.m */; };
-		9FA75BBC1D64429C0009A733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA75BBA1D64429C0009A733 /* Main.storyboard */; };
 		9FA75BBE1D64429C0009A733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA75BBD1D64429C0009A733 /* Assets.xcassets */; };
 		9FA75BC11D64429C0009A733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA75BBF1D64429C0009A733 /* LaunchScreen.storyboard */; };
+		9FA75BCD1D6442CC0009A733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BC91D6442CC0009A733 /* AppDelegate.m */; };
+		9FA75BCE1D6442CC0009A733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA75BCA1D6442CC0009A733 /* Main.storyboard */; };
+		9FA75BCF1D6442CC0009A733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BCC1D6442CC0009A733 /* ViewController.m */; };
+		9FA75BE61D6442E90009A733 /* ContactAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BD21D6442E90009A733 /* ContactAddVC.m */; };
+		9FA75BE71D6442E90009A733 /* ContactEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BD41D6442E90009A733 /* ContactEditVC.m */; };
+		9FA75BE81D6442E90009A733 /* ContactListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BD61D6442E90009A733 /* ContactListVC.m */; };
+		9FA75BE91D6442E90009A733 /* Contact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BD91D6442E90009A733 /* Contact+CoreDataProperties.m */; };
+		9FA75BEA1D6442E90009A733 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BDB1D6442E90009A733 /* Contact.m */; };
+		9FA75BEB1D6442E90009A733 /* Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BDC1D6442E90009A733 /* Contact.xcdatamodeld */; };
+		9FA75BEC1D6442E90009A733 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BE01D6442E90009A733 /* CommonTool.m */; };
+		9FA75BED1D6442EA0009A733 /* ZZCoreDataManagedContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BE31D6442E90009A733 /* ZZCoreDataManagedContext.m */; };
+		9FA75BEE1D6442EA0009A733 /* ZZRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA75BE51D6442E90009A733 /* ZZRegular.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9FA75BAE1D64429C0009A733 /* DelectedAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelectedAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA75BB21D64429C0009A733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9FA75BB41D64429C0009A733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9FA75BB51D64429C0009A733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9FA75BB71D64429C0009A733 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9FA75BB81D64429C0009A733 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9FA75BBB1D64429C0009A733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FA75BBD1D64429C0009A733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA75BC01D64429C0009A733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FA75BC21D64429C0009A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA75BC81D6442CC0009A733 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FA75BC91D6442CC0009A733 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FA75BCA1D6442CC0009A733 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9FA75BCB1D6442CC0009A733 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FA75BCC1D6442CC0009A733 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FA75BD11D6442E90009A733 /* ContactAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactAddVC.h; sourceTree = "<group>"; };
+		9FA75BD21D6442E90009A733 /* ContactAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactAddVC.m; sourceTree = "<group>"; };
+		9FA75BD31D6442E90009A733 /* ContactEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEditVC.h; sourceTree = "<group>"; };
+		9FA75BD41D6442E90009A733 /* ContactEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEditVC.m; sourceTree = "<group>"; };
+		9FA75BD51D6442E90009A733 /* ContactListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListVC.h; sourceTree = "<group>"; };
+		9FA75BD61D6442E90009A733 /* ContactListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListVC.m; sourceTree = "<group>"; };
+		9FA75BD81D6442E90009A733 /* Contact+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9FA75BD91D6442E90009A733 /* Contact+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9FA75BDA1D6442E90009A733 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		9FA75BDB1D6442E90009A733 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		9FA75BDD1D6442E90009A733 /* Contact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact.xcdatamodel; sourceTree = "<group>"; };
+		9FA75BDF1D6442E90009A733 /* CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		9FA75BE01D6442E90009A733 /* CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		9FA75BE11D6442E90009A733 /* CoreDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTools.h; sourceTree = "<group>"; };
+		9FA75BE21D6442E90009A733 /* ZZCoreDataManagedContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCoreDataManagedContext.h; sourceTree = "<group>"; };
+		9FA75BE31D6442E90009A733 /* ZZCoreDataManagedContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCoreDataManagedContext.m; sourceTree = "<group>"; };
+		9FA75BE41D6442E90009A733 /* ZZRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRegular.h; sourceTree = "<group>"; };
+		9FA75BE51D6442E90009A733 /* ZZRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRegular.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +85,14 @@
 		9FA75BB01D64429C0009A733 /* DelectedAll */ = {
 			isa = PBXGroup;
 			children = (
-				9FA75BB41D64429C0009A733 /* AppDelegate.h */,
-				9FA75BB51D64429C0009A733 /* AppDelegate.m */,
-				9FA75BB71D64429C0009A733 /* ViewController.h */,
-				9FA75BB81D64429C0009A733 /* ViewController.m */,
-				9FA75BBA1D64429C0009A733 /* Main.storyboard */,
+				9FA75BD01D6442E90009A733 /* Contact */,
+				9FA75BD71D6442E90009A733 /* CoreData */,
+				9FA75BDE1D6442E90009A733 /* CoreDataTools */,
+				9FA75BC81D6442CC0009A733 /* AppDelegate.h */,
+				9FA75BC91D6442CC0009A733 /* AppDelegate.m */,
+				9FA75BCA1D6442CC0009A733 /* Main.storyboard */,
+				9FA75BCB1D6442CC0009A733 /* ViewController.h */,
+				9FA75BCC1D6442CC0009A733 /* ViewController.m */,
 				9FA75BBD1D64429C0009A733 /* Assets.xcassets */,
 				9FA75BBF1D64429C0009A733 /* LaunchScreen.storyboard */,
 				9FA75BC21D64429C0009A733 /* Info.plist */,
@@ -77,6 +107,45 @@
 				9FA75BB21D64429C0009A733 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FA75BD01D6442E90009A733 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				9FA75BD11D6442E90009A733 /* ContactAddVC.h */,
+				9FA75BD21D6442E90009A733 /* ContactAddVC.m */,
+				9FA75BD31D6442E90009A733 /* ContactEditVC.h */,
+				9FA75BD41D6442E90009A733 /* ContactEditVC.m */,
+				9FA75BD51D6442E90009A733 /* ContactListVC.h */,
+				9FA75BD61D6442E90009A733 /* ContactListVC.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		9FA75BD71D6442E90009A733 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9FA75BD81D6442E90009A733 /* Contact+CoreDataProperties.h */,
+				9FA75BD91D6442E90009A733 /* Contact+CoreDataProperties.m */,
+				9FA75BDA1D6442E90009A733 /* Contact.h */,
+				9FA75BDB1D6442E90009A733 /* Contact.m */,
+				9FA75BDC1D6442E90009A733 /* Contact.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9FA75BDE1D6442E90009A733 /* CoreDataTools */ = {
+			isa = PBXGroup;
+			children = (
+				9FA75BDF1D6442E90009A733 /* CommonTool.h */,
+				9FA75BE01D6442E90009A733 /* CommonTool.m */,
+				9FA75BE11D6442E90009A733 /* CoreDataTools.h */,
+				9FA75BE21D6442E90009A733 /* ZZCoreDataManagedContext.h */,
+				9FA75BE31D6442E90009A733 /* ZZCoreDataManagedContext.m */,
+				9FA75BE41D6442E90009A733 /* ZZRegular.h */,
+				9FA75BE51D6442E90009A733 /* ZZRegular.m */,
+			);
+			path = CoreDataTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +179,6 @@
 				TargetAttributes = {
 					9FA75BAD1D64429C0009A733 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = R7WQVX25ZU;
 					};
 				};
 			};
@@ -137,9 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA75BCE1D6442CC0009A733 /* Main.storyboard in Resources */,
 				9FA75BC11D64429C0009A733 /* LaunchScreen.storyboard in Resources */,
 				9FA75BBE1D64429C0009A733 /* Assets.xcassets in Resources */,
-				9FA75BBC1D64429C0009A733 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +218,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA75BB91D64429C0009A733 /* ViewController.m in Sources */,
-				9FA75BB61D64429C0009A733 /* AppDelegate.m in Sources */,
+				9FA75BEA1D6442E90009A733 /* Contact.m in Sources */,
+				9FA75BCF1D6442CC0009A733 /* ViewController.m in Sources */,
+				9FA75BED1D6442EA0009A733 /* ZZCoreDataManagedContext.m in Sources */,
+				9FA75BE91D6442E90009A733 /* Contact+CoreDataProperties.m in Sources */,
+				9FA75BE81D6442E90009A733 /* ContactListVC.m in Sources */,
+				9FA75BE71D6442E90009A733 /* ContactEditVC.m in Sources */,
+				9FA75BEB1D6442E90009A733 /* Contact.xcdatamodeld in Sources */,
+				9FA75BEC1D6442E90009A733 /* CommonTool.m in Sources */,
+				9FA75BEE1D6442EA0009A733 /* ZZRegular.m in Sources */,
+				9FA75BCD1D6442CC0009A733 /* AppDelegate.m in Sources */,
 				9FA75BB31D64429C0009A733 /* main.m in Sources */,
+				9FA75BE61D6442E90009A733 /* ContactAddVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9FA75BBA1D64429C0009A733 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FA75BBB1D64429C0009A733 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9FA75BBF1D64429C0009A733 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DelectedAll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SkyTwo.2.DelectedAll;
@@ -273,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DelectedAll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SkyTwo.2.DelectedAll;
@@ -301,6 +372,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FA75BDC1D6442E90009A733 /* Contact.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FA75BDD1D6442E90009A733 /* Contact.xcdatamodel */,
+			);
+			currentVersion = 9FA75BDD1D6442E90009A733 /* Contact.xcdatamodel */;
+			path = Contact.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9FA75BA61D64429C0009A733 /* Project object */;
 }
